@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/try_r"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title=" IT   "
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/it_req"
+        android:orderInCategory="100"
+        android:title=" IT Request  "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Company_c"
+        android:orderInCategory="100"
+        android:title="Company Cards "
+        app:showAsAction="never" />
+
+    <item
+
+        android:title="sign out"
+
+        android:id="@+id/sign_out"
+
+        app:showAsAction="never"
+
+        />
+    <item
+
+        android:title=" Holiday Request "
+        android:id="@+id/holiday_leaves"
+
+
+
+        app:showAsAction="never"
+
+        />
+
+
+</menu>

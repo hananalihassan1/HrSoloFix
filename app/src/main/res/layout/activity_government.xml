@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GovernmentActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Government Relation "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/transefer_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer of information "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/iqama_issunce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iqama issuance "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/cancel_visa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel visa    "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/change_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change profession    "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/change_iqama_inform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change iqama   information "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/multibple_visa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiple Visa    "
+            android:textSize="14dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Details : "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/reason_govern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/sub_gover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+
+
+        android:textColor="@android:color/white"
+
+        android:text="Submit"
+
+        android:background="@drawable/singin_back"
+        />
+
+
+
+
+
+</LinearLayout>

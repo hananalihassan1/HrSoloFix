@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text=" employee name"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00000000000"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00/00/000"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/gov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="government"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="section"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reason for regestratoin"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FF302F2F"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+
+        />
+
+</LinearLayout>

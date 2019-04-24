@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/background"
+
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+
+        >
+
+
+
+
+
+        <Button
+
+            android:id="@+id/welcom_admin_btn"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="30dp"
+
+            android:text="I'm An Admin"
+
+            android:layout_marginRight="100dp"
+
+            android:layout_marginLeft="100dp"
+
+            android:background="@drawable/signup_back"
+
+            android:textColor="@color/colorPrimaryDark"
+
+            />
+
+
+
+        <Button
+
+            android:id="@+id/welcom_employee_btn"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="100dp"
+
+            android:text="I'm An Employee "
+
+            android:textColor="#fff"
+
+            android:layout_marginRight="100dp"
+
+            android:layout_marginLeft="100dp"
+
+            android:background="@drawable/singin_back"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StampActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:layout_margin="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Card / Stamp Request Card"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <RadioButton
+        android:id="@+id/card_chec1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <RadioButton
+        android:id="@+id/card_chec2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replacement of damaged or lost card  "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <RadioButton
+        android:id="@+id/card_chec3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update information  "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" NOTE ! "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Company will deduct 100 SR \n from employee damaged or lost card "
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit "
+        android:textColor="#fff"
+        android:background="@drawable/singin_back"
+        android:layout_margin="50dp"
+        android:layout_marginTop="50dp"
+
+        />
+
+</LinearLayout>

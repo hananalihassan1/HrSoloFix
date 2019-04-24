@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance Amendment"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        >
+        <RadioButton
+            android:id="@+id/attend_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal work"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+        <RadioButton
+            android:id="@+id/attend_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System error "
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <RadioButton
+            android:id="@+id/atten_late"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Came late "
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+        <RadioButton
+            android:id="@+id/atttend_forfet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget to punch in/out"
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+        <RadioButton
+            android:id="@+id/atttend_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other "
+            android:textColor="#000"
+            android:textSize="16dp"
+            />
+
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reason  : "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/reason_govern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/attend_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+
+
+        android:textColor="@android:color/white"
+
+        android:text="Submit"
+
+        android:background="@drawable/singin_back"
+        />
+
+
+
+</LinearLayout>

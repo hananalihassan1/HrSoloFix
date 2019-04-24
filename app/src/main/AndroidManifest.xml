@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hanan.hanan_ali.hrsolofix">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/backs"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddNewEmployeeActivity"></activity>
+        <activity android:name=".CashAdvanceActivity" />
+        <activity android:name=".GovernmentActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".EmergenciesActivity" />
+        <activity android:name=".HoldayLeavesActivity" />
+        <activity android:name=".StampActivity" />
+        <activity android:name=".ITActivity" />
+        <activity android:name=".LeavesActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".EmployeeLoginRegisterActivity" />
+        <activity android:name=".AdminLoginRegisterActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

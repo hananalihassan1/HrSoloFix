@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537617866198",
+    "firebase_url": "https://hrsolofix.firebaseio.com",
+    "project_id": "hrsolofix",
+    "storage_bucket": "hrsolofix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537617866198:android:c1bfa06f07489800",
+        "android_client_info": {
+          "package_name": "com.hanan.hanan_ali.hrsolofix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537617866198-ferdp36cmuod9k0grk90nq5cvmavvs2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanan.hanan_ali.hrsolofix",
+            "certificate_hash": "bddcd05fad78749ce2c1411bdbff8f2c03db97eb"
+          }
+        },
+        {
+          "client_id": "537617866198-jqmsq4qr0ce9sq70ac7dgi3iqm833rrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNHlE0F2r0J6FoNoGOfUJzYr0TgeHdPNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537617866198-jqmsq4qr0ce9sq70ac7dgi3iqm833rrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

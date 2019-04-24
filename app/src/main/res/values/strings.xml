@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hr Solo Fix</string>
+    <string name="leave"> leave</string>
+    <string name="settings">action_settings</string>
+    <string-array name="select_leaves">
+        <item></item>
+        <item>Emergencies</item>
+        <item>Attendance/Amendment</item>
+        <item>Government Relation </item>
+        <item>Cash Advance</item>
+
+
+    </string-array>
+</resources>
